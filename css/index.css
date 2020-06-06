@@ -1,0 +1,21 @@
+/* fondo de pantalla */
+.fondo{
+    /* llamamos a la imagen de fondo */
+    background: url('../PHOTOS/proyecto2/fondo.jpg');
+/* lo que hemos copiado de gradient */
+    background: #22c1c3; 
+    background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  
+    background: linear-gradient(to right, #fdbb2d, #22c1c3); 
+    
+/* ancho */
+    width: 100%;
+/* altura */
+    height: 100vh;
+/* centrado */
+    background-position: center;
+/* que la img no se repita */
+background-repeat: no-repeat;
+/* que ocupe todo el espacio */
+background-size: cover;
+}
+
